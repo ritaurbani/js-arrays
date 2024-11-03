@@ -16,6 +16,7 @@ const teachers = [
 for ( let i = teachers.length -1; i>= 0; i--) {
 const currentItem = teachers[i];
 reversedTeachers.push(currentItem);
+}
 console.log(reversedTeachers);  
 
 // 1 iterazione
@@ -69,7 +70,6 @@ console.log(`longNames: ${longNames}`);
 
 
 //3. Rimuovi 'Ed' dall'array teachers
-
 
 const newTeacher = teachers.splice(1,1)
 console.log(teachers)
